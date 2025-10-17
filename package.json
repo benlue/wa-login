@@ -1,0 +1,35 @@
+{
+  "name": "wa-login",
+  "version": "1.0.0",
+  "description": "Demonstration of wnode's webapp protection system with secure authentication using cookie-based stateless tokens and client-side password hashing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benlue/wa-login.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benlue/wa-login/issues"
+  },
+  "homepage": "https://github.com/benlue/wa-login#readme",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "wnode",
+    "authentication",
+    "authorization",
+    "security",
+    "webapp-protection",
+    "cookie-auth",
+    "password-hashing",
+    "stateless-auth",
+    "bootstrap5",
+    "SHA256"
+  ],
+  "author": "Ben Lue",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}

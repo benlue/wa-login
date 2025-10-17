@@ -1,0 +1,18 @@
+{
+    "/login": {
+        "id": "no",
+        "section": "pages",
+        "title": "wnode MiniApp",
+        "protected": false
+    },
+    "/main": {
+        "id": "no",
+        "section": "pages",
+        "title": "The main page",
+        "protected": true
+    },
+    "/backend/authorize": {
+        "id": "no",
+        "protected": false
+    }
+}
