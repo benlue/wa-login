@@ -1,6 +1,6 @@
 {
   "name": "wa-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demonstration of wnode's webapp protection system with secure authentication using cookie-based stateless tokens and client-side password hashing",
   "repository": {
     "type": "git",
