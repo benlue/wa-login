@@ -217,18 +217,6 @@ wa-login/
 - **License**: MIT
 - **Framework**: wnode with Bootstrap 5 integration
 
-## Vibe Coding (AI-Assisted Development)
-
-This project is optimized for AI-assisted development. It includes comprehensive documentation to help AI coding tools understand wnode's patterns:
-
-- **[CLAUDE.md](CLAUDE.md)** - AI coding assistant configuration
-- **[doc/references/](doc/references/)** - Complete wnode coding patterns and WBS5 (Bootstrap 5) integration guides
-
-If you use AI coding tools other than Claude Code, you can adapt the configuration:
-- **Cursor**: Rename to `.cursorrules`
-- **GitHub Copilot**: Move to `.github/copilot-instructions.md`
-- **Other tools**: Check your tool's documentation for the appropriate filename
-
 ## License
 
 MIT

@@ -11,7 +11,8 @@ exports.checkIn = {
     }
 }
 
-exports.model = function(inData, ctx, cb) {
+
+exports.model = function(inData) {
     const crypto = require('crypto')
     const { accName, passwordHash } = inData
 
@@ -51,7 +52,7 @@ exports.model = function(inData, ctx, cb) {
             .update(matchedUser.accName + FIXED_SECRET)
             .digest('hex')
 
-        cb({
+        return  {
             code: 0,
             value: {
                 message: 'Login successful',
@@ -62,11 +63,12 @@ exports.model = function(inData, ctx, cb) {
                     role: matchedUser.role
                 }
             }
-        })
-    } else {
-        cb({
+        }
+    }
+    else {
+        return  {
             code: 1,
             message: 'Invalid username or password'
-        })
+        }
     }
 }
